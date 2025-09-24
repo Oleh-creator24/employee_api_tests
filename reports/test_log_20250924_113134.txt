@@ -1,0 +1,16 @@
+============================= test session starts =============================
+platform win32 -- Python 3.12.10, pytest-7.4.0, pluggy-1.6.0 -- D:\Python\Auto_QA\employee_api_tests\.venv\Scripts\python.exe
+cachedir: .pytest_cache
+metadata: {'Python': '3.12.10', 'Platform': 'Windows-11-10.0.26100-SP0', 'Packages': {'pytest': '7.4.0', 'pluggy': '1.6.0'}, 'Plugins': {'html': '3.2.0', 'json-report': '1.5.0', 'metadata': '3.1.1', 'xdist': '3.3.1'}}
+rootdir: D:\Python\Auto_QA\employee_api_tests
+configfile: pytest.ini
+plugins: html-3.2.0, json-report-1.5.0, metadata-3.1.1, xdist-3.3.1
+collecting ... collected 5 items
+
+tests/test_edge_cases.py::TestEmployeeAPIEdgeCases::test_create_employee_edge_cases PASSED [ 20%]
+tests/test_edge_cases.py::TestEmployeeAPIEdgeCases::test_sequential_operations SKIPPED\u043a\u0430"}) [ 40%]
+tests/test_employee_api.py::TestEmployeeAPI::test_debug_create_employee PASSED [ 60%]
+tests/test_employee_api.py::TestEmployeeAPI::test_get_employee_info_existing PASSED [ 80%]
+tests/test_performance.py::TestEmployeeAPIPerformance::test_multiple_sequential_requests SKIPPED\u043d\u044b\u0435 \u043f\u043e\u043b\u044f \u0438\u043b\u0438 \u0438\u043c\u0435\u0435\u0442 \u043e\u0433\u0440\u0430\u043d\u0438\u0447\u0435\u043d\u0438\u044f.) [100%]
+
+======================== 3 passed, 2 skipped in 1.39s =========================
